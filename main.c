@@ -5,5 +5,5 @@ Big2();
 big3();  
 fact();
 prime();
-reverse();
+rev();
 }
