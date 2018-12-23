@@ -1,6 +1,6 @@
 #include<iostream.h>
 #include<conio.h>
-void main()
+void fact()
 {
 	clrscr();
 	int num, i, fact=1;
