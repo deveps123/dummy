@@ -1,12 +1,12 @@
 #include<stdio.h>
 #include<conio.h>
 #include<string.h>
-void main()
+void rev()
 {
 	clrscr();
 	char str[100], temp;
 	int i=0, j;
-	printf("Enter the String : ");
+	printf("\n\n Enter the String : ");
 	gets(str);
 	i=0;
 	j=strlen(str)-1;
