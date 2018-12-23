@@ -1,18 +1,20 @@
-#include<stdio.h>
-void Big2()
+#include <stdio.h>
+
+void big2()
 {
-	clrscr();
-	int a, b, big;
-	printf("\n\n Enter two number : ");
-	scanf("%d%d",&a,&b);
-	if(a>b)
-	{
-		big=a;
-	}
-	else
-	{
-		big=b;
-	}
-	printf("Biggest of the two number is %d",big);
-	getch();
+    int num1, num2;
+
+    printf("\n\nEnter two integers :");
+    scanf("%d%d", &num1, &num2);
+
+    if (num1 > num2)
+    {
+        printf("Largest number is %d.", num1);
+    }
+    else
+    {
+        printf("Largest number is %d.", num2);
+    }
+
+//    return 0;
 }
