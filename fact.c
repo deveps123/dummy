@@ -4,7 +4,7 @@ void fact()
 {
 	clrscr();
 	int num, i, fact=1;
-	cout<<"Enter a number : ";
+	cout<<"\n\n Enter a number : ";
 	cin>>num;
 	for(i=num; i>0; i--)
 	{
