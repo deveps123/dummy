@@ -4,7 +4,7 @@ void Big()
 {
 	clrscr();
 	int a, b, big;
-	printf("Enter two number : ");
+	printf("\n\n Enter two number : ");
 	scanf("%d%d",&a,&b);
 	if(a>b)
 	{
